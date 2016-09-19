@@ -137,6 +137,7 @@
 				TargetAttributes = {
 					08B60B8B1D8F40B300B8BE80 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = XD92VBX7GT;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -351,6 +352,8 @@
 			baseConfigurationReference = F624990DA06A708AEA7A04DC /* Pods-Tumblr2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XD92VBX7GT;
 				INFOPLIST_FILE = Tumblr2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonluca.Tumblr2;
@@ -364,6 +367,8 @@
 			baseConfigurationReference = CB0ABDF7A6F07BF97CB72379 /* Pods-Tumblr2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = XD92VBX7GT;
 				INFOPLIST_FILE = Tumblr2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jonluca.Tumblr2;
